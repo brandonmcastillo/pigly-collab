@@ -69,11 +69,11 @@
                                 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                                 <div class="mc-field-group">
                                     <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
-                                    <input type="text"  minlength="2" value="" pattern="^[a-zA-Z ]{2,30}.*$" title="First name has to be more then 2 characters" name="FNAME" class="required" id="mce-FNAME">
+                                    <input type="text" class="first-name-field" minlength="2" value="" pattern="[a-zA-Z]+" title="First name has to be more then 2 characters" name="FNAME" class="required" id="mce-FNAME">
                                 </div>
                                 <div class="mc-field-group">
                                     <label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
-                                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" minlength="2" pattern="[a-zA-Z]+" class="first-name-field" >
                                 </div>
                                 <div class="mc-field-group">
                                     <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>

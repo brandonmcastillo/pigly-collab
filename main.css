@@ -11,3 +11,7 @@ div {
     border-radius: 20px;
     
 }
+
+.first-name-field:invalid {
+    background-color: red;
+  }
