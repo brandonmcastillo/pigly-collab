@@ -3,3 +3,15 @@ html {
     width: 1440px;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
+div {
+    border: 1px solid pink;
+}
+
+.download-button {
+    border-radius: 20px;
+    
+}
