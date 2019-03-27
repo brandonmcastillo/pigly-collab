@@ -1,6 +1,9 @@
 
-body {
+*, html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
     font-family: Helvetica, sans-serif;
 }
 
@@ -16,7 +19,7 @@ nav {
     border-bottom: 1px solid black;
 }
 
-.nav-background, header {
+.nav-background, header, footer {
     background-color: #FBE8E2;
 }
 
@@ -90,7 +93,7 @@ ul {
 
 /* About */
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     color: #4A4242;
     letter-spacing: -0.22px;
     text-align: center;
@@ -120,8 +123,113 @@ h1 {
 .mission-text {
     padding: 50px;
     font-family: HelveticaNeue;
-    font-size: 20px;
+    font-size: 30px;
     color: #5C5858;
     letter-spacing: -0.14px;
     text-align: center;
 }
+
+/* testimonials and image */
+.testimonial-quote {
+    font-family: ArialRoundedMTBold;
+    font-size: 30px;
+    color: #5C5858;
+    letter-spacing: -0.13px;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.testimonial-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.testimonial-div {
+    background: #F2F2F2;
+}
+
+/* Footer */
+.footer-ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+    color: #4A4242;
+    letter-spacing: -0.08px;
+}
+
+.footer-li {
+    padding-right: 50px;
+    display: inline;
+}
+
+.app-img-footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 50px;
+}
+
+/* modal form */
+.modal-body, .modal-content, label, .mc-field-group, #mc-embedded-subscribe-form{
+    background: #FBF4F2;
+}
+
+#signupModal, #mc_embed_signup_scroll {
+    background: #FBF4F2;
+}
+
+#mc_embed_signup .mc-field-group input {
+    border-radius: 13px;
+    width: 70%;
+    padding: 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.required{
+    background: #FDFBFB;
+    border: 2px solid #979797;
+    font-size: 20px;
+    color: #857D7D;
+    letter-spacing: -0.13px;
+}
+.mc-field-group{
+    text-align: left;
+    background: #FBF4F2;
+}
+
+input::placeholder {
+    font-family: ArialRoundedMTBold;
+    font-size: 12px;
+    color: #857D7D;
+    letter-spacing: -0.13px;
+}
+
+input#mc-embedded-subscribe.button {
+    background-color: #FF5B5A;
+    border-radius: 28px;
+    width: 50%;
+}
+
+.subscribe-div {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.modal-body {
+    padding-bottom: 40px;
+}
+
+.modal-title {
+    font-family: ArialRoundedMTBold;
+    font-size: 30px;
+    color: #4A4242;
+    letter-spacing: -0.22px;
+    padding-top: 20px;
+}
+/* input {
+    background-color: transparent;
+} */

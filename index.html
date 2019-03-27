@@ -63,7 +63,7 @@
                             <div class="modal-dialog modal-dialog-scrollable" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h5 class="modal-title" id="signupModal">To subscribe, Please enter the following details </h5>
+                                  <h3 class="modal-title" id="signupModal">To subscribe, <br>Please enter the following details </h3>
                                   <button type="button" class="close download-button" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -73,32 +73,23 @@
                                 <div id="mc_embed_signup">
                                     <form action="https://gmail.us20.list-manage.com/subscribe/post?u=5c4d036a45e6e36ca7710be61&amp;id=346bed4e7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                         <div id="mc_embed_signup_scroll">
-                                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+    
                                     <div class="mc-field-group">
-                                        <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
-                                        <input type="text" class="first-name-field" minlength="2" value="" pattern="[a-zA-Z]+" title="First name has to be more then 2 characters" name="FNAME" class="required" id="mce-FNAME">
+                                        <input type="text" placeholder="First Name" class="required first-name-field" minlength="2" value="" pattern="[a-zA-Z]+" title="First name has to be more then 2 characters" name="FNAME" class="required" id="mce-FNAME">
                                     </div>
                                     <div class="mc-field-group">
-                                        <label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
-                                        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" minlength="2" pattern="[a-zA-Z]+" class="first-name-field" >
+                                        <input type="text" placeholder="Last Name" value="" name="LNAME" class="required" id="mce-LNAME" minlength="2" pattern="[a-zA-Z]+" class="first-name-field" >
                                     </div>
                                     <div class="mc-field-group">
-                                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                    </div>
-                                    <div class="mc-field-group input-group">
-                                        <strong>Service:</strong>
-                                        <ul><li><input type="checkbox" value="1" name="group[1253][1]" id="mce-group[1253]-1253-0"><label for="mce-group[1253]-1253-0">Piggy Back Rider</label></li>
-                                            <li><input type="checkbox" value="2" name="group[1253][2]" id="mce-group[1253]-1253-1"><label for="mce-group[1253]-1253-1">Piggy Back Giver</label></li>
-                                        </ul>
+                                        <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                                     </div>
                                     <div id="mce-responses" class="clear">
                                         <div class="response" id="mce-error-response" style="display:none"></div>
                                         <div class="response" id="mce-success-response" style="display:none"></div>
                                     </div>    
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c4d036a45e6e36ca7710be61_346bed4e7d" tabindex="-1" value=""></div>
-                                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" >
-                                            <button type="button" class="btn btn-secondary button" data-dismiss="modal">Close</button>
+                                    <div class="subscribe-div" style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c4d036a45e6e36ca7710be61_346bed4e7d" tabindex="-1" value=""></div>
+                                        <div class="clear subscribe-div"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" >
+            
                                         </div>
                                     </div>
                                     </form>
@@ -157,28 +148,37 @@
     </div>
 </main>
 <article role="article">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h3>quote quote quote</h3>
+            <div class="col-md-12 testimonial-div">
+                <img class="testimonial-image" src="images/6.png">
             </div>
         </div>
+        <div class="row">
+                <div class="col-md-12">
+                    <p class="testimonial-quote">“What a great way for me to spend less on my <br>commute and meet new people in my <br>neighborhood.  Plain and simple, piggyback <br>riding is the future!”</p>
+                </div>
+            </div>
     </div>
 </article>
 <footer role="contentinfo">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                ICONS
-            </div>
-            <div class="col-md-3">
-                    ICONS
-            </div>
-            <div class="col-md-3">
-                
-            </div>
-            <div class="col-md-3">
-                APP IMAGES
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <ul class="footer-ul">
+                    <li class="footer-li">Why Piggly?</li>
+                    <li class="footer-li">Give Rides</li>
+                    <li class="footer-li log-in-link">Log in</li><br>
+                    <li class="footer-li">Our Mission</li>
+                    <li class="footer-li"> 6Grab Rides</li>
+                    <li class="footer-li log-in-link">Sign up</li> <br>
+                    <li class="footer-li">Privacy</li><br>
+                    <li class="footer-li">Help</li>
+                </ul>
+                </div>
+            <div class="col-md-6">
+                <img class="app-img-footer" src="images/2.png">
+                </div>
             </div>
         </div>
     </div>
