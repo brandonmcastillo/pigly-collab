@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'SFPro';
+}
+
+@font-face {
+    font-family: 'SFPro'; /*a name to be used later*/
+    src: url('./SF\ Pro\ 2/SF-Pro-Display-Regular.otf'); /*URL to font*/
 }
 
 .first-name-field:invalid {
@@ -14,20 +19,31 @@ body {
   /* Navbar */
 nav {
     background-color: #FBE8E2;
-    width: 80%;
     margin: auto;
-    border-bottom: 1px solid black;
+    
 }
+
 
 .nav-background, header, footer {
     background-color: #FBE8E2;
 }
 
-ul {
-    padding-right: 80px;
-    padding-top: 50px;
-    padding-bottom: 10px;
+.image-icon {
+    position: relative;
+    left: 130px;
 }
+
+
+ul {
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.navbar-nav > li{
+    padding-left:18px;
+    padding-right:18px;
+  }
 
 .nav-link {
     font-size: 20px;
@@ -43,22 +59,26 @@ ul {
     color: #FF5860;
 }
 
+a.img:before, a.img:after{
+    outline: none !important;
+    box-shadow: none;
+}
 /* Header */
 .header-icon  {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 100px;
+
 }
 
 .tag-line {
     font-family: HelveticaNeue-Bold;
     font-size: 58px;
     color: #4A4242;
-    letter-spacing: -0.09px;
-    line-height: 78px;
+    letter-spacing: -0.02px;
+    line-height: 68px;
     text-align: center;
 }
 
@@ -67,12 +87,12 @@ ul {
     color: #4A4242;
     letter-spacing: -0.13px;
     text-align: center;
-    margin-top: 20px;
-    padding-bottom: 40px;
+    margin-top: 5px;
+    padding-bottom: 5px;
 }
 .join-now-button-div  {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .join-now-button {
     background: #FF5B5A;
@@ -88,7 +108,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 /* About */
@@ -99,8 +119,13 @@ h1 {
     text-align: center;
 }
 
-#About, #Mission {
-    padding: 40px;
+#Mission {
+    padding: 180px;
+}
+
+#About {
+    padding: 180px;
+    padding-bottom: 40px;
 }
 
 .card {
@@ -109,6 +134,9 @@ h1 {
 }
 .card-text {
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Source Sans Pro'
 }
 
 .card-img-top {
@@ -137,7 +165,7 @@ h1 {
     letter-spacing: -0.13px;
     text-align: center;
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 .testimonial-image {
@@ -158,11 +186,20 @@ h1 {
     font-size: 15px;
     color: #4A4242;
     letter-spacing: -0.08px;
+    padding-right: 0;
+
 }
 
 .footer-li {
     padding-right: 50px;
-    display: inline;
+}
+
+.footer-2 {
+    display: inline-block;
+}
+
+.footer-col {
+    display: flex;
 }
 
 .app-img-footer {
@@ -170,7 +207,29 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-    padding-top: 50px;
+    padding-top: 30px;
+}
+
+.footer-download-btn {
+    border-radius: 28px;
+    width: 260px;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+
+button:focus,button:active, join-now-button:focus, join-now-button:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.footer-download-btn:hover {
+    background-color: #FBE8E2;
+}
+
+.testimonial-div-2 {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 /* modal form */
@@ -178,7 +237,11 @@ h1 {
     background: #FBF4F2;
 }
 
-#signupModal, #mc_embed_signup_scroll {
+#signupModal {
+    background-color: rgba(92, 88, 88, 0.253);
+}
+
+#mc_embed_signup_scroll {
     background: #FBF4F2;
 }
 
@@ -229,7 +292,17 @@ input#mc-embedded-subscribe.button {
     color: #4A4242;
     letter-spacing: -0.22px;
     padding-top: 20px;
+    text-align: center;
 }
+
+ul.checkbox {
+    margin: auto;
+}
+
+#mc_embed_signup .mc-field-group.input-group ul {
+margin: auto;
+}
+
 /* input {
     background-color: transparent;
 } */

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>pigly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,8 +18,8 @@
 </head>
 <body>
 <div class="container-fluid nav-background">
-<nav class="navbar navbar-expand-md" role="navigation">
-<a class="navbar-brand" href="#"><img src="images/7.png" width="220" height="70"></a>
+<nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+<a class="navbar-brand" href="#"><img class="image-icon" src="images/7.png" width="220" height="60"></a>
 <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 </button>
@@ -26,7 +27,7 @@
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="#About">Why Piggly</a>
+            <a class="nav-link" href="#About">Why Pigly</a>
         </li>
         <li class="nav-item ">
             <a class="nav-link" href="#Mission">Our Mission</a>
@@ -56,6 +57,7 @@
                     <div><h1 class="tag-line">Cut some slack,</h1></div>
                     <div><h1 class="tag-line">Grab a Piggyback!</h1></div>
                     <div><p class="coupon-text">Join now for $1 off your next 5 rides.</p></div>
+                    <div><img class="app-store-img" src="images/2.png"></div>
                     <div class="join-now-button-div"><button type="button" class="btn join-now-button" data-toggle="modal" data-target="#signupModal">
                         Join the Mailing List
                     </button></div>
@@ -63,7 +65,7 @@
                             <div class="modal-dialog modal-dialog-scrollable" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
-                                  <h3 class="modal-title" id="signupModal">To subscribe, <br>Please enter the following details </h3>
+                                  <h3 class="modal-title" id="">To join the mailing list,<br>please enter the following details </h3>
                                   <button type="button" class="close download-button" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -83,6 +85,10 @@
                                     <div class="mc-field-group">
                                         <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                                     </div>
+                                    <div class="mc-field-group input-group">
+                                        <ul class="checkbox"><li><input " type="checkbox" value="1" name="group[1253][1]" id="mce-group[1253]-1253-0"><label for="mce-group[1253]-1253-0">I have read and understand the Privacy Policy</label></li>
+                                        </ul>
+                                    </div>
                                     <div id="mce-responses" class="clear">
                                         <div class="response" id="mce-error-response" style="display:none"></div>
                                         <div class="response" id="mce-success-response" style="display:none"></div>
@@ -100,7 +106,6 @@
                             </div>
                         </div>
                     </div>
-                    <div><img class="app-store-img" src="images/2.png"></div>
                  </div>
              </div>      
         </div>
@@ -109,13 +114,13 @@
     <div class="container-fluid">
         <div class="row">
             <div id="About" class="col-md-6 col-lg-12">   
-                    <h1>Why Piggly?</h1>
+                    <h1>Why Pigly?</h1>
             </div>
         </div> 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 13rem;">
-                    <img class="card-img-top" src="images/3.png" alt="Card image cap">
+        <div class="row ">
+            <div class="col-md-4 ">
+                <div class="card float-right " style="width: 13rem;">
+                    <img class="card-img-top " src="images/3.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text">Affordable<br>and<br>Cost-Efficient</p>
                     </div>
@@ -130,10 +135,10 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 15rem;">
+                <div class="card float-left" style="width: 13rem;">
                     <img class="card-img-top" src="images/5.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Have fun<br>and <br>make new friends!</p>
+                        <p class="card-text">Have Fun<br>and <br>make new friends!</p>
                     </div>
                 </div>
             </div>
@@ -155,8 +160,9 @@
             </div>
         </div>
         <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 testimonial-div-2">
                     <p class="testimonial-quote">“What a great way for me to spend less on my <br>commute and meet new people in my <br>neighborhood.  Plain and simple, piggyback <br>riding is the future!”</p>
+                        <button class="footer-download-btn">Download the App</button>
                 </div>
             </div>
     </div>
@@ -164,18 +170,26 @@
 <footer role="contentinfo">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-md-6 col-sm-6 col-xs-6 footer-col">
                 <ul class="footer-ul">
-                    <li class="footer-li">Why Piggly?</li>
-                    <li class="footer-li">Give Rides</li>
-                    <li class="footer-li log-in-link">Log in</li><br>
+                    <li class="footer-li">Why Pigly?</li>
                     <li class="footer-li">Our Mission</li>
-                    <li class="footer-li"> 6Grab Rides</li>
-                    <li class="footer-li log-in-link">Sign up</li> <br>
-                    <li class="footer-li">Privacy</li><br>
+                    <li class="footer-li">Privacy</li>
                     <li class="footer-li">Help</li>
                 </ul>
+                <div class="footer-2">
+                <ul class="footer-ul ">
+                    <li class="footer-li">Give Rides</li>
+                    <li class="footer-li">Grab Rides</li> 
+                </ul>
                 </div>
+                <div class="footer-2">
+                <ul class="footer-ul">
+                    <li class="footer-li log-in-link">Log in</li>
+                    <li class="footer-li log-in-link">Sign up</li>
+                </ul>
+                </div>
+            </div>
             <div class="col-md-6">
                 <img class="app-img-footer" src="images/2.png">
                 </div>
