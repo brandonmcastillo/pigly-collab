@@ -356,3 +356,12 @@ margin: auto;
         left: 30px;
     }
 }
+#modalX {
+    background: pink;
+    color:white;
+    border-radius: 50%;
+    border-color: white
+}
+/* input {
+    background-color: transparent;
+} */
