@@ -233,6 +233,12 @@ button:focus,button:active, join-now-button:focus, join-now-button:active {
 }
 
 /* modal form */
+
+div.modal-header {
+    border-bottom: none !important;
+    text-align: center;
+    margin: auto
+}
 .modal-body, .modal-content, label, .mc-field-group, #mc-embedded-subscribe-form{
     background: #FBF4F2;
 }
@@ -245,7 +251,12 @@ button:focus,button:active, join-now-button:focus, join-now-button:active {
     background: #FBF4F2;
 }
 
-#mc_embed_signup .mc-field-group input {
+div#mc_embed_signup{
+    background: #FBF4F2;
+    text-align: center
+}
+
+ .mc-field-group input {
     border-radius: 13px;
     width: 70%;
     padding: 10px 30px;
@@ -271,10 +282,17 @@ input::placeholder {
     letter-spacing: -0.13px;
 }
 
-input#mc-embedded-subscribe.button {
+input#mc-embedded-subscribe.button{
     background-color: #FF5B5A;
     border-radius: 28px;
     width: 50%;
+}
+
+button.close-modal{
+    background-color: #FF5B5A;
+    border-radius: 28px;
+    width: 50%; 
+    color: white  
 }
 
 .subscribe-div {
@@ -295,6 +313,8 @@ input#mc-embedded-subscribe.button {
     text-align: center;
 }
 
+
+
 ul.checkbox {
     margin: auto;
 }
@@ -304,11 +324,12 @@ margin: auto;
 }
 
 #modalX {
-    background: pink;
-    color:white;
-    border-radius: 50%;
+    color:black;
     border-color: white
 }
+
+
+
 /* input {
     background-color: transparent;
 } */

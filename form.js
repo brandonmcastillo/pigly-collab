@@ -252,8 +252,9 @@
                 $
 		        // $('#mce-'+resp.result+'-response').show();
                 // $('#mce-'+resp.result+'-response').html("<H1>Thanks!</H1><p>You're now subscribed to our newsletter</p><p>You'll hear from us shortly.</p>");
-                $(".modal-title").html('<h1>Thanks!</h1>')
-                $('#mc_embed_signup').html("<p>You're now subscribed to our newsletter</p><p>You'll hear from us shortly.</p>");
+
+                $('.modal-header').html("<h3>Thanks!</h3>")
+                $('#mc_embed_signup').html("<p>You're now subscribed to our newsletter</p><p>You'll hear from us shortly.</p> <button data-dismiss='modal' class='close-modal'>Done</button>");
 		        $('#mc-embedded-subscribe-form').each(function(){
 		            this.reset();
 		    	});
