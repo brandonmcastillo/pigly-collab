@@ -16,9 +16,9 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
-<a class="navbar-brand" href="#">pigly</a>
-<button class="btn-outline-secondary download-button" type="#">Download the App</button>
+<div class="container-fluid nav-background">
+<nav class="navbar navbar-expand-md" role="navigation">
+<a class="navbar-brand" href="#"><img src="images/7.png" width="220" height="70"></a>
 <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 </button>
@@ -26,10 +26,10 @@
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="#">Our Mission</a>
+            <a class="nav-link" href="#About">Why Piggly</a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link" href="#">Why Piggly</a>
+            <a class="nav-link" href="#Mission">Our Mission</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Give Rides</a>
@@ -38,118 +38,122 @@
             <a class="nav-link" href="#">Grab Rides</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Log In</a>
+            <a class="nav-link log-in-link" href="#">Log In</a>
         </li>
     </ul>
 </div>
 </nav>
+</div>
 <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-7">
-                   <h1>Save gas, Grab A Piggyback!</h1>
-                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signupModal">
-                        Get Started
-                      </button>
-                      <span>Receive A $1 Off</span>
-                      <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="signupModal">Sign Up for Piggy News</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                        <div class="modal-body">
-                            <!-- Begin Mailchimp Signup Form -->
-                            <div id="mc_embed_signup">
-                                <form action="https://gmail.us20.list-manage.com/subscribe/post?u=5c4d036a45e6e36ca7710be61&amp;id=346bed4e7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                    <div id="mc_embed_signup_scroll">
-                                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                                <div class="mc-field-group">
-                                    <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
-                                    <input type="text" class="first-name-field" minlength="2" value="" pattern="[a-zA-Z]+" title="First name has to be more then 2 characters" name="FNAME" class="required" id="mce-FNAME">
+            <div class="col-md-12">
+                <div><img class="header-icon" src="/images/1.png"></div>
+             </div>
+         </div>
+         <div class="row">
+                <div class="col-md-12">
+                    <div><h1 class="tag-line">Cut some slack,</h1></div>
+                    <div><h1 class="tag-line">Grab a Piggyback!</h1></div>
+                    <div><p class="coupon-text">Join now for $1 off your next 5 rides.</p></div>
+                    <div class="join-now-button-div"><button type="button" class="btn join-now-button" data-toggle="modal" data-target="#signupModal">
+                        Join the Mailing List
+                    </button></div>
+                          <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="signupModal">To subscribe, Please enter the following details </h5>
+                                  <button type="button" class="close download-button" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
                                 </div>
-                                <div class="mc-field-group">
-                                    <label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
-                                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" minlength="2" pattern="[a-zA-Z]+" class="first-name-field" >
-                                </div>
-                                <div class="mc-field-group">
-                                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                </div>
-                                <div class="mc-field-group input-group">
-                                    <strong>Service:</strong>
-                                    <ul><li><input type="checkbox" value="1" name="group[1253][1]" id="mce-group[1253]-1253-0"><label for="mce-group[1253]-1253-0">Piggy Back Rider</label></li>
-                                        <li><input type="checkbox" value="2" name="group[1253][2]" id="mce-group[1253]-1253-1"><label for="mce-group[1253]-1253-1">Piggy Back Giver</label></li>
-                                    </ul>
-                                </div>
-                                <div id="mce-responses" class="clear">
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>    
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c4d036a45e6e36ca7710be61_346bed4e7d" tabindex="-1" value=""></div>
-                                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" >
-                                        <button type="button" class="btn btn-secondary button" data-dismiss="modal">Close</button>
+                            <div class="modal-body">
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="https://gmail.us20.list-manage.com/subscribe/post?u=5c4d036a45e6e36ca7710be61&amp;id=346bed4e7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                    <div class="mc-field-group">
+                                        <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
+                                        <input type="text" class="first-name-field" minlength="2" value="" pattern="[a-zA-Z]+" title="First name has to be more then 2 characters" name="FNAME" class="required" id="mce-FNAME">
                                     </div>
+                                    <div class="mc-field-group">
+                                        <label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
+                                        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" minlength="2" pattern="[a-zA-Z]+" class="first-name-field" >
+                                    </div>
+                                    <div class="mc-field-group">
+                                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                    </div>
+                                    <div class="mc-field-group input-group">
+                                        <strong>Service:</strong>
+                                        <ul><li><input type="checkbox" value="1" name="group[1253][1]" id="mce-group[1253]-1253-0"><label for="mce-group[1253]-1253-0">Piggy Back Rider</label></li>
+                                            <li><input type="checkbox" value="2" name="group[1253][2]" id="mce-group[1253]-1253-1"><label for="mce-group[1253]-1253-1">Piggy Back Giver</label></li>
+                                        </ul>
+                                    </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c4d036a45e6e36ca7710be61_346bed4e7d" tabindex="-1" value=""></div>
+                                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" >
+                                            <button type="button" class="btn btn-secondary button" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                    </form>
                                 </div>
-                                </form>
-                            </div>
-                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
+                            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <!--End mc_embed_signup-->
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-5" role="banner">
-                    IMAGE GOES HERE
-            </div>
+                    <div><img class="app-store-img" src="images/2.png"></div>
+                 </div>
+             </div>      
         </div>
-    </div>
 </header>
 <main role="main">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-lg-12">
-                <h1>Our Mission</h1>
-                <p>Pigly is a transportation service that provides on-demand piggyback rides to help users get around in the city without using their own feet.
-                Despite major commuting initiatives, the majority of Americans are still driving to work.  We are on a mission to cut down the number of cars 
-                and vehicles on the road which means less pollution in the air, and further protecting the environment to keep it clean!</p>
+            <div id="About" class="col-md-6 col-lg-12">   
+                    <h1>Why Piggly?</h1>
             </div>
-        </div>   
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Why Piggly?</h1>
-            </div>
-        </div>   
+        </div> 
         <div class="row">
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card" style="width: 13rem;">
+                    <img class="card-img-top" src="images/3.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Pigly is affordable and saves you money</p>
+                        <p class="card-text">Affordable<br>and<br>Cost-Efficient</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card" style="width: 13rem;">
+                    <img class="card-img-top" src="images/4.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Go green and help save the environment</p>
+                        <p class="card-text">Save Energy<br>and<br>the Environment</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="images/5.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Have fun and make new friends in your city</p>
+                        <p class="card-text">Have fun<br>and <br>make new friends!</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="Mission" class="row">
+            <div class="col-md-6 col-lg-12">
+                <h1>Our Mission</h1>
+                <p class="mission-text">Pigly is a transportation service that provides on-demand <br>piggyback rides to help users get around in the city without<br>using their own feet.<br><br>
+                We are on a mission to help you save your energy and replace<br>your walking time with piggyback rides!  In addition to choosing<br>Pigly as your mode of transportation, you would further cut<br>down the number of vehicles on the road and continue to <br>protect our environment.</p>
+            </div>
+        </div>   
     </div>
 </main>
 <article role="article">
