@@ -63,6 +63,12 @@ a.img:before, a.img:after{
     outline: none !important;
     box-shadow: none;
 }
+
+button.navbar-toggler.ml-auto {
+    background-color: none;
+}
+
+
 /* Header */
 .header-icon  {
     display: block;
@@ -132,6 +138,7 @@ h1 {
     margin: 0 auto;
     border: none;
 }
+
 .card-text {
     text-align: center;
     font-weight: bold;
@@ -165,6 +172,14 @@ h1 {
     letter-spacing: -0.13px;
     text-align: center;
     padding-top: 3em;
+}
+
+.testimonial-quote2 {
+    font-family: ArialRoundedMTBold;
+    font-size: 17px;
+    color: #5C5858;
+    letter-spacing: -0.13px;
+    text-align: center;
     padding-bottom: 1em;
 }
 
@@ -187,8 +202,8 @@ h1 {
     color: #4A4242;
     letter-spacing: -0.08px;
     padding-right: 0;
-
 }
+
 
 .footer-li {
     padding-right: 50px;
@@ -303,6 +318,41 @@ ul.checkbox {
 margin: auto;
 }
 
-/* input {
-    background-color: transparent;
-} */
+ @media only screen and (max-width : 800px) {
+    .float-custom {
+        float: none!important;
+    }
+    h1, h3 {
+        text-align: center;
+        margin: auto;
+    }
+    .mission-text, .testimonial-quote, .testimonial-quote2 .coupon-text {
+        font-size:100%;
+        padding-bottom: 5px;
+    }
+    .tag-line {
+        font-size: 5vh;
+    }
+    div#Mission.row {
+        padding-top: 2px;
+    }
+}
+
+@media only screen and (max-width: 576px) { 
+    .mission-text {
+        text-align: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+    h1, h3 {
+        text-align: center;
+        margin: auto;
+    }
+    #Mission, #About {
+        padding: 20px;
+    }
+    .image-icon {
+        position: relative;
+        left: 30px;
+    }
+}
