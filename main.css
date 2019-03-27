@@ -230,6 +230,13 @@ input#mc-embedded-subscribe.button {
     letter-spacing: -0.22px;
     padding-top: 20px;
 }
+
+#modalX {
+    background: pink;
+    color:white;
+    border-radius: 50%;
+    border-color: white
+}
 /* input {
     background-color: transparent;
 } */
