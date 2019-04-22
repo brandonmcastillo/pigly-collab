@@ -1,9 +1,9 @@
 # pigly-collab.github.io
-Pigly is a static landing page collaboration project created by a UX and WDI team in two days.
 
-##Summary
 
-Pigly is a landing page created by a team of developers( Jonathan Rosario and Brandon Castillo) and UX/UI Designers (Marissa Kan and Meripet Perhat)
+## Summary
+
+Pigly is a landing page created by a team of developers( Jonathan Rosario and Brandon Castillo) and UX/UI Designers (Marissa Kan and Meripet Perhat) in two days in order to grow our skills. 
 
 ## Approach
 Our approach in creating this static page was simple. We collaborated on what features of the site we could and couldn't do in two days. On day one, the developers started off with basic HTML layout and integrated mailchimp
