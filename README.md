@@ -3,8 +3,7 @@
 
 ## Summary
 
-Pigly is a landing page created by a team of developers( Jonathan Rosario and Brandon Castillo) and UX/UI Designers (Marissa Kan and Meripet Perhat) in two days in order to grow our skills. 
-
+Pigly is a landing page created by a team of developers( Jonathan Rosario and Brandon Castillo) and UX/UI Designers (Marissa Kan and Meripet Perhat) in two days in order to familiarize working with a specialized section of a team.
 ## Demo and Wireframes 
 https://brandonmcastillo.github.io/pigly-collab.github.io/
 
